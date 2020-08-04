@@ -1,0 +1,5 @@
+uInput = input("Please write some comma-separated numbers: ")
+uList = uInput.split(",")
+print(f"Your list is {uList}")
+uTuple = tuple(uList)
+print(f"Your tuple is {uTuple}")
